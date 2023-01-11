@@ -1,0 +1,78 @@
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    background-color:white;
+    width: 325px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+.cardImage{
+    background-color:white;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 5px;
+    
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+.card p{
+    padding-left: 10px;
+    background-color: black;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 25px;
+
+}
+.dropdown{
+    padding-left: 10px;
+    background-color: black;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 25px;
+
+}
+.card h4{
+    padding-left: 10px;
+    background-color: black;
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 25px;
+
+}
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
